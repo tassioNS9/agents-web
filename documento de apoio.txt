@@ -1,0 +1,19 @@
+Instalação do Vite
+
+Configurações e remoções de EsLit e demais arquivos
+
+Instalação tailwindcss com Vite
+
+Configurações nos arquivos de tsconfig.app.json e tsconfig.json
+
+npm i -D @types/node
+
+import path from 'path' --> No arquivo vite.config.ts
+
+npx shadcn@latest init
+npx shadcn@latest add button
+npm i react-router-dom
+
+npm i @tanstack/react-query
+
+Para usar o react-query primeiro fazer as configurações no arquvivo app.tsx
