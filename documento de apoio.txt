@@ -17,3 +17,8 @@ npm i react-router-dom
 npm i @tanstack/react-query
 
 Para usar o react-query primeiro fazer as configurações no arquvivo app.tsx
+
+npm i dayjs ==> para formatar as datas
+npm i @hookform/resolvers --> integração do react-rook-form com o zod e com outras libs
+
+Do React-query para fazer uma requisição do tipo post,put,delete sempre usamos useMutation
