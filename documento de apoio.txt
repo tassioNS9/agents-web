@@ -22,3 +22,5 @@ npm i dayjs ==> para formatar as datas
 npm i @hookform/resolvers --> integração do react-rook-form com o zod e com outras libs
 
 Do React-query para fazer uma requisição do tipo post,put,delete sempre usamos useMutation
+
+npm i @types/dom-speech-recognition -D --> Tipagem de pacote o typescript entender que existe a APi media-recorder
