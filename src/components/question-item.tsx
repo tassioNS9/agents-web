@@ -33,7 +33,6 @@ export function QuestionItem({ question }: QuestionItemProps) {
               </p>
             </div>
           </div>
-
           {(!!question.answer || question.isGeneratingAnswer) && (
             <div className="flex items-start space-x-3">
               <div className="flex-shrink-0">
@@ -62,7 +61,6 @@ export function QuestionItem({ question }: QuestionItemProps) {
               </div>
             </div>
           )}
-
           <div className="flex justify-end">
             <span className="text-muted-foreground text-xs">
               {dayjs(question.createdAt).toNow()}

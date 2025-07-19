@@ -50,6 +50,7 @@ export function useCreateQuestion(roomId: string) {
     },
 
     onSuccess(data, _variables, context) {
+      // o setQueryData permite atualizar o valor de uma outra query que já veio de um valor anteriormente com algum novo valor
       queryClient.setQueryData<GetRoomQuestionsResponse>(
         ["get-questions", roomId],
         (questions) => {

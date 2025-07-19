@@ -43,8 +43,6 @@ export function RecordRoomAudio() {
     );
 
     const result = await response.json();
-
-    console.log(result);
   }
 
   function createRecorder(audio: MediaStream) {
@@ -92,7 +90,7 @@ export function RecordRoomAudio() {
       recorder.current?.stop();
 
       createRecorder(audio);
-    }, 5000);
+    }, 8000);
   }
 
   if (!params.roomId) {
